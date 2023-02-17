@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Oswald:wght@700&family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap');
+
+
+.glowdiv {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: #fff;
+}
+
+#glowh2 {
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    font-size: 15vh;
+
+}
+
+#glowh2 span {
+    animation: animate 5s linear infinite;
+    animation-delay: calc(0.05s * var(--i));
+}
+
+@keyframes animate {
+    0% {
+        color: #fff;
+        filter: blur(0px) hue-rotate(0deg);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 10px #2a3d4b,
+        0 0 20px #2a3d4b,
+        0 0 40px #2a3d4b,
+        0 0 80px #2a3d4b,
+        0 0 120px#2a3d4b,
+        0 0 200px#2a3d4b,
+        0 0 300px#2a3d4b,
+        0 0 400px#2a3d4b;
+    }
+    30%, 70% {
+        color: #fff;
+        filter: blur(0px) hue-rotate(360deg);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 10px #2a3d4b,
+        0 0 20px #2a3d4b,
+        0 0 40px #2a3d4b,
+        0 0 80px #2a3d4b,
+        0 0 120px#2a3d4b,
+        0 0 200px#2a3d4b,
+    }
+    100% {
+        color: transparent;
+        box-shadow: none;
+        filter: blur(0px) hue-rotate(0deg);
+    }
+}

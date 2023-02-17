@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Syntax</title>
+    <link rel="stylesheet" type="text/css" href="work1.css"> 
+    <link rel="stylesheet" type="text/css" href="Language\glowtext.css"> 
+    <link href="Language\Photo\Icon.png" rel="icon" sizes="96x96" type="image/png">
+</head>
+<body>
+    <div class="con1">
+        <nav>
+            
+            <ul>
+                <li><a href="#">Eng kerakli</a>
+                    <ul>
+                        <li><a href="https://www.granneman.com/webdev/coding/formatting-and-indenting-your-html" target="_blank">Qand. c. yozish</a></li>
+                        <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+                        <li><a href="https://classroom.udacity.com/me" target="_blank">Udacity</a></li>
+                        <li><a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color</a>
+                            <ul class="colorp">
+                                <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Color pickel</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://validator.w3.org/" target="_blank">Validator</a></li>
+                        <li><a href="https://www.edx.org/" target="_blank">edX</a></li>
+                        <li><a href="https://www.commonapp.org/" target="_blank">common<br>app</a></li>
+                        <li><a href="https://loremipsum.io/" target="_blank">LoremIpsum</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN web docs.</a>
+                            <ul class="colorp">
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank"></a>CSS havolasi </li>
+                                <li><a href="#" target="_blank"></a> </li>
+                                <li><a href="#" target="_blank"></a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="https://github.com/" target="_blank">GitHub</a>
+                            <ul class="GitHub">
+                                <li><a href="https://guides.github.com/activities/hello-world/" target="_blank"></a>GitHub gude </li>
+                                <li><a href="https://app.dependabot.com/accounts/NickOneRG/" target="_blank"></a>Dependabot</li>
+                                <li><a href="#" target="_blank"></a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li> <a href="https://codepen.io/" target="_blank">Codepen</a>
+                    <ul>
+                        <li><a>#</a></li>
+                    </ul>
+                </li>
+                <li> <a href="https://jsfiddle.net/" target="_blank">JSfile</a> </li>
+                <li> <a href="https://www.fiverr.com/" target="_blank">fiverr</a> </li>
+                <li> <a href="https://www.upwork.com/" target="_blank">Upwork</a> </li>
+                <li> <a href="https://www.pexels.com/" target="_blank">Pexels</a> </li>
+                <li> <a href="https://logomakr.com/" target="_blank">LogoMark</a> </li>
+                <li> <a href="work1.html" >HTML</a> </li>
+            </ul>
+        </nav>
+
+        <div id="glowcon" class="glowdiv">
+            <h2 class="glowh" id="glowh2">
+                <span class="glow-sp" style="--i:1;">H</span>
+                <span class="glow-sp" style="--i:2;">e</span>
+                <span class="glow-sp" style="--i:3;">l</span>
+                <span class="glow-sp" style="--i:4;">l</span>
+                <span class="glow-sp" style="--i:5;">o</span>
+                <span class="glow-sp" style="--i:6;">,</span>
+                <span class="glow-sp" style="--i:7; margin-left: 5vh;">w</span>
+                <span class="glow-sp" style="--i:8;">o</span>
+                <span class="glow-sp" style="--i:9;">r</span>
+                <span class="glow-sp" style="--i:10;">l</span>
+                <span class="glow-sp" style="--i:11;">d</span>
+                <span class="glow-sp" style="--i:12;">!</span>
+            </h2>
+        </div>
+
+       <div class="con11">
+            <h1 class="h-all">"CSS" sintaksisini takrorlash</h1>
+            <p class="p-em">Ushbu darsda "CSS" sintaksisining ko‘plab misollariga duch kelgansiz. Endi navbat takrorlashga!</p><hr>
+
+            <p>"CSS" qoidalar to‘plamining asosiy sintaksisi ikkita qismdan iborat: selektor va bir guruh qoidalar, ularning har biri xossa nomi va shu xossaning qiymatidan iborat..</p>
+
+            <pre class="pre1 code"><code>
+    <span class="orange">selector</span> { 
+        <span class="koko">property</span>: <span class="qizil">value</span>;
+    }</code>
+            </pre>
+            <p>Avval selektor yoziladi va keyin qoidalar <span class="sp-mark"> { </span> kamon sifat qavslar<span class="sp-mark"> } </span> ichiga yoziladi. Har bir qoidaning xossasi va qiymati bir biridan<span class="sp-mark"> : </span> ikki nuqta bilan ajratiladi va qoida har doim<span class="sp-mark"> ; </span> nuqta-vergul bilan tugaydi.</p>
+
+            <p class="strong">Selektorlar</p><hr>
+            <p>Selektor "CSS" qoidasi qo‘llaniladigan HTML elementlarini ko‘rsatadi. Bir necha xil selektor turlarini ko‘rdingiz:<em><strong>element</strong></em>  selektori(element selector), klas selektori(<em><strong>class</strong></em> selector), id selektori(<em><strong>id</strong></em> selector), va tobe selektor(<em><strong>descendent</strong></em> selector).</p>
+
+            <p><strong>Tur selektori</strong> ma’lum bir turdagi har bir HTML elementiga qo‘llaniladi, masalan,<span class="sp-mark"> p </span> yoki<span class="sp-mark"> em </span> elementlarini tanlash uchun. Ushbu selektor har bir <span class="sp-mark"> p </span> elementga qo‘llaniladi:</p>
+            <pre class="pre1 code"><code>
+    <span class="orange">p</span> { 
+        <span class="koko">color</span>: <span class="qizil">blue</span>;
+    }
+            </code></pre>
+
+            <p>Klas selektori class atributiga ega barcha elementlarga qo‘llaniladi. <span class="sp-mark">Class</span> selektori <span class="sp-mark"> . </span> (nuqta)dan boshlanib yoziladi:</p>
+            <pre class="pre1 code"><code>
+    <span class="orange">.narrow</span> { 
+        <span class="koko">width</span>: <span class="qizil">20%</span>;
+    }
+            </code></pre>    
+    
+            <p>Klas selektorini qo‘llash uchun sahifada <span class="sp-mark">class</span> atributidan foydalanadigan HTML elementlari bo‘lishi kerak:</p>
+             
+            <pre class="pre1 code"><code>    
+    <span class="qorq">&lt;<span class="kok">div</span> <span class="koko">class</span>=<span class="qizil">"narrow"</span>&gt;</span>
+        This will get the 20% width.
+    <span class="qora">&lt;/</span><span class="kok">div</span><span class="qora">&gt;</span>
+            </code></pre>
+
+            <p><strong>id</strong> selektor ma’lum bir <span class="sp-mark">id</span> atributiga ega elementga qo‘llaniladi. ID selektori <span class="sp-mark"> # </span> belgisi bilan yoziladi:</p>
+            
+            <pre class="pre1 code"><code>
+    <span class="orange">#sidebar</span> { 
+        <span class="koko">background-color</span>: <span class="qizil">lightgray</span>;
+        <span class="koko">width</span>: <span class="qizil">20%</span>;
+        <span class="koko">float</span>: <span class="qizil">left</span>;
+    }
+            </code></pre>
+
+            <p>"HTML" sahifasi ichida <span class="sp-mark"> id </span> atribut qiymati bilan faqat bitta element bo‘lishi kerak.</p>
+            
+            <pre class="pre1 code"><code>    
+    <span class="qorq">&lt;<span class="kok">div</span> <span class="koko">id</span>=<span class="qizil">"sidebar"</span>&gt;</span>
+        This will get the background, width, and float values
+       from the sidebar CSS rule.
+    <span class="qora">&lt;/</span><span class="kok">div</span><span class="qora">&gt;</span>
+            </code></pre>
+
+            <p>Tobelik selektori (<strong>descendent selector</strong>) bu ikkita oddiy selektorlar jamlanmasidan iboratdir. Bu faqat ma’lum bir tashqi elementning avlodi (DOM daraxtida) bo‘lgan ichki elementga tegishli.</p>
+            
+            <pre class="pre1 code"><code>
+    <span class="orange">li a </span>{ 
+        <span class="koko">color</span>: <span class="qizil">pink</span>;
+    }
+            </code></pre>
+
+            <p>Yuqoridagi selektor a elementlariga (havola yaratuvchi element) qo‘llaniladi, lekin li element (ro‘yxat yaratuvchi elementi) ichidagi mavjud <span class="sp-mark"> a </span> elementlargagina qo‘llaniladi:</p>
+
+            <pre class="pre1 code"><code>    
+    <span class="qorq">&lt;<span class="kok">ul</span> <span class="koko">id</span>=<span class="qizil">"sidebar"</span>&gt;</span>
+        <span class="qora">&lt;<span class="kok">li</span>&gt; </span> <span class="qora">&lt;<span class="kok">a</span> <span class="koko">href</span>=<span class="qizil">"https://www.udacity.com/"</span>&gt;
+               Pink Udacity 
+        &lt;/<span class="kok">a</span>&gt; </span>
+    <span class="qora">&lt;/</span><span class="kok">ul</span><span class="qora">&gt;</span>
+
+    <span class="qora">&lt;<span class="kok">p</span>&gt; &lt;<span class="kok">a</span>&gt; <span class="koko">href</span>=<span class="qizil">"https://www.google.com/"</span>&gt; 
+               Non-pink Google 
+        &lt;/<span class="kok">a</span>&gt; 
+    &lt;/<span class="kok">p</span>&gt;</span>  
+            </code></pre><br>
+
+            <p class="strong">Qoidalar</p><hr>
+            <p>Qoidalar to‘plami bir nechta qoidalardan iborat bo‘lishi mumkin, ularning har biri tanlangan elementlarning <em>xossalariga</em> ma’lum bir <em>qiymatni</em> beradi. Xossalar - bu elementning rangi, holati, o‘lchami va shakli kabilardir.</p>
+            <pre class="pre1 code"><code>
+    <span class="qora"><span class="orange">h1 </span>{ <span class="koko">color</span>: <span class="qizil">red</span>; <span class="koko">font-size</span>: <span class="qizil">lerger</span>; }</span>
+            </code></pre>
+
+            <p>Ushbu qoida <span class="sp-mark">color</span> xossasiga <span class="sp-mark">red</span> qiymatni va <span class="sp-mark">font-size</span> xossasiga nisbatan <span class="sp-mark">larger</span>  qiymatni qo‘llaydi.</p>
+
+            <p>Ba’zi xossalarga bir nechta so‘zlardan iborat bo‘lgan qiymatlar yozish mumkin, masalan, <span class="sp-mark">font</span> xossasiga:</p>
+
+            <pre class="pre1 code"><code>
+    <span class="qora"><span class="orange">body </span>{ <span class="koko">font</span>: <span class="oyashil">12pt</span> <span class="qizil">bold Consolas, </span><span class="qizil">Monaco, </span> <span class="qizil">monospace</span>; }</span>
+            </code></pre><br>
+
+            <p class="strong">Shrift to‘plamlari</p><hr>
+            <p><span class="sp-mark">Font-family</span> va <span class="sp-mark">font</span> xossalari sizga shrift to‘plamlarini, "," vergul bilan ajratilgan shrift parametrlari ro‘yxatini ko‘rsatishga imkon beradi. Brauzer foydalanuvchi tizimidagi shrift to‘plamidan birinchisini ishlatadi. Odatda to‘plamda oxirgi shrift umumiy shrift nomi bo‘lishi kerak, masalan,<span class="sp-mark">serif</span> ,<span class="sp-mark">sans-serif</span>  yoki<span class="sp-mark">monospace</span>.</p>
+            <br>
+
+            <p class="strong">Ranglar</p><hr>
+
+            <p>"CSS"da rangni aniqlashning bir necha yo‘li mavjud. Uchta keng tarqalgan kod - bu hex kodlari, <span class="sp-mark">rgb</span> uchliklari va rang nomlari.</p>
+            <pre class="pre1 code"><code>
+    <span class="orange">.orange </span>{ 
+        <span class="koko">color</span>: <span class="qizil">#ff9900</span>;
+    }
+
+    <span class="orange">.pink </span>{ 
+        <span class="koko">color</span>: <span class="qizil">rgb(100%, 80%, 80%)</span>;
+    }
+
+    <span class="orange">.chartreuse </span>{ 
+        <span class="koko">color</span>: <span class="qizil">chartreuse</span>;
+    }
+            </code></pre>
+            <br>
+
+            <p class="strong">"Flexbox" xossasi</p><hr>
+
+            <p>Brauzerda "HTML" elementlari joylashuvini an’anaviy joylashuvdan "Flexbox" usulidagi joylashtirishga o‘zgartirish uchun konteyner elementiga (uning ichida boshqa elementlari bo‘lgan) <span class="sp-mark">display:flex</span> xossasini yozing.</p>
+
+            <pre class="pre1 code"><code>
+    <span class="orange">.outer </span>{ 
+        <span class="koko">display</span>: <span class="qizil">flex</span>;
+        <span class="koko">border</span>: <span class="oyashil">2px</span><span class="qizil"> dotted orange</span>;
+    }
+
+    <span class="orange">.inner </span>{ 
+        <span class="koko">width</span>: <span class="oyashil">100px</span>;
+        <span class="koko">border</span>: <span class="oyashil">1px </span><span class="qizil">solid black</span>;
+        <span class="koko">padding</span>: <span class="oyashil">10px</span>;
+    }
+            </code></pre>
+ 
+<p>"Flexbox" har hil holatlarga moslashtirilishi mumkin! Yuqorida yozilgan kodlar <span class="sp-mark">.inner</span> klasiga ega "HTML" elementlarni <span class="sp-mark">.outer</span> klasiga ega elementi ichida qatorlab joylashtirilishiga sabab bo‘ladi:</p>
+
+            <pre class="pre1 code"><code>    
+    <span class="qorq">&lt;<span class="kok">div </span> <span class="koko">class</span>=<span class="qizil">"outer"</span>&gt;</span>
+        <span class="qora">&lt;<span class="kok">p </span><span class="koko">class</span>=<span class="qizil">"inner"</span>&gt; I am a box. &lt;/<span class="kok">p</span>&gt;</span>
+        <span class="qora">&lt;<span class="kok">p </span><span class="koko">class</span>=<span class="qizil">"inner"</span>&gt; I am another box. &lt;/<span class="kok">p</span>&gt;</span>
+        <span class="qora">&lt;<span class="kok">p </span><span class="koko">class</span>=<span class="qizil">"inner"</span>&gt; Hey, I am a box, too! Boxes
+        <span class="qora">&lt;<span class="kok">strong </span>&gt;rock &lt;/<span class="kok">strong</span>&gt;. &lt;/<span class="kok">p</span>&gt;</span>
+        <span class="qora">&lt;<span class="kok">p </span><span class="koko">class</span>=<span class="qizil">"inner"</span>&gt; Let's be boxes together. Yay, flexbox.  &lt;/<span class="kok">p</span>&gt;</span>     
+    <span class="qora">&lt;/</span><span class="kok">div</span><span class="qora">&gt;</span>
+            </code></pre><br>
+
+            <div class="outer pre1">
+                <p class="inner"> I am a box. </p>
+                <p class="inner"> I am another box. </p>
+                <p class="inner"> Hey, I am a box, too! Boxes <strong>rock</strong>. </p>
+                <p class="inner"> Let's be boxes together. Yay, flexbox. </p>
+            </div><br><br>
+       </div>
+        
+    </div>
+    <footer class="nav1">
+        <ol>
+            <li><p class="p-welcome">Name: Sharobidinov Ruzibek</p>
+            <li><p class="p-welcome">E-mail: robidron0199@gmail.com</p>
+        </ol>
+    </footer>
+   
+</body>
+</html>

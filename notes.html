@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html lang="uz">
+        <head>
+            <link rel="stylesheet" type="text/css" href="C:\Users\robid\OneDrive\Desktop\Program\Language\CSS\style.css">
+        </head>
+                 
+        <body>
+            <header>
+                <h1 align="center" id="notes1"> Notes HTML & CSS</h1>
+                <h2 align="center">Nozima</h2>
+                <div>
+                    <hgroup>
+                        <h3 align="left" >HTML= Hyper Text Markup Language</h4>
+                    </hgroup>
+                         
+                    <nav align="center">
+                        <a href="html.htm">HTML</a>
+                        <a href="css.htm">CSS</a>
+                        <a href="script.htm">Pythonda</a>
+                        <a href="script.htm">JavaScript</a>
+                    </nav>
+                    <div>
+                       <sub>"Sub"</sub> va <sup>"Sup"</sup> elementlari qanday <mark>vazifalarni</mark> bajaradi? Ularni matn muharriri va brauzeringizda sinab ko`ring. 
+                       <p align="center">Water yoki <strong>H<sup><small>2</small></sup>O</strong></p>
+                    </div>
+
+                    <details>
+                       
+                        <summary><b>HTML-elementlari</b></summary>
+
+                        <h1 id="html-elementlar-1">HTML-lementlarni ko‘rib chiqish - 1</h1>
+                        <hr>  <!-- horizontal line -->                        
+                        <i>
+                            <p>Bu yerda mana shu kursda ko‘rilgan "HTML" elementlari keltirilgan. Agar siz ularni hali ham o‘zingizning matn muharriringiz va brauzeringizda sinab ko‘rmagan bo‘lsangiz, hozir bu uchun ajoyib vaqt!</p>
+                            <ul>
+                                <li><code>&lt;em&gt;</code> va <code>&lt;strong&gt;</code> — Urg‘u berish (ajratib ko‘rsatish).<br>Sukut holati bo‘yicha, <code>&lt;em&gt;</code> ichidagi matn <em>"italic"</em> sifatida va <code>&lt;strong&gt;</code> ichidagi matn <strong>boldface</strong> ko‘rinishida ko‘rsatiladi.</li>
+                                <li><code>&lt;p&gt;</code> — Paragraf.<br>Paragrafdagi matn vizual ravishda boshqa paragraflardan kichik chegara bilan ajratilgan.</li>
+                                <li><code>&lt;br&gt;</code> — Qator bo‘yicha "break" (qatro uzilishi). <em>(bo‘sh)</em><br>Qatordagi "break" yangi paragraf yaratmaydi; u faqat qatorning oxirini belgilaydi.</li>
+                                <li><code>&lt;sub&gt;</code> va <code>&lt;sup&gt;</code> — Satr osti va satr usti.<br>U matematika va kimyo uchun foydali: Menda x<sup>3</sup>+2x<sup>2</sup> H <sub>2</sub>O molekulalari bor.</li>
+                                <li><code>&lt;mark&gt;</code> — Belgilash.<br>U tez-tez ishlatilmaydi, lekin bu <mark> ajoyib belgilashdir.</mark></li>
+                            </ul>
+                        </i>
+                    
+                    </details>
+
+                    <details>
+                        <summary>
+                            <strong>Qo`llanma</strong>
+                        </summary>
+
+                        <i>
+                            <div class="index--atom--lmAIo layout--content--3Smmq"><div class="ltr"><div class="_15vzQlp3FJ8f94suLiPCPf ureact-markdown "><h1 id="html-elementlarini-ko-rib-chiqish-2">HTML elementlarini ko‘rib chiqish - 2</h1>
+                                <p>Siz endi HTML elementlari haqida yana ham ko‘proq bilib oldingiz! Ushbu sahifa hozirgacha ko‘rgan barcha elementlarning xulosasi. Agar kodingizda ushbu elementlardan birini qanday ishlatishni unutgan bo‘lsangiz, ushbu sahifadan ma’lumotnoma sifatida foydalanishingiz mumkin.</p>
+                                <h2 id="-block-elementlar">'Block' elementlar</h2>
+                                <p>'Block' elementlari paragraflar, sarlavhalar yoki ro‘yxatlar kabi matnning katta qismlarida qo‘llaniladi; shuningdek, video pleyerlar va jadvallar kabi ba’zi boshqa funksiyalar uchun ham undan foydalaniladi.</p>
+                                <p>'Block' elementi brauzer ekranida (odatda ko‘rinmas) ramkani yaratadi. Odatda, ushbu ramka ekranning to‘liq kengligini oladi. 'Block'ning boshlanishi har doim ekranda yangi satrda boshlanadi.</p>
+                                <p>'Block' elementlarining aksariyati sukut rejimi bo‘yicha ko‘rsatiladigan ma’lum bir usulga ega: paragraflar atrofida chegaralar mavjud; ro‘yxatlarda ko‘rsatkichlar yoki raqamlangan narsalar mavjud; sarlavhalar katta matnda chop etiladi. Bundan tashqari, 'standart' block elementi 'div' mavjud bo‘lib, u maxsus andozalarga ega emas.</p>
+                                <ul>
+                                <li><code>p</code> — Paragraf.<br>Paragrafdagi matn vizual ravishda boshqa paragraflardan kichik maydon bilan ajratilgan.</li>
+                                <li><code>ul</code> va <code>ol</code> — Tartibsiz va tartiblangan ro‘yxatlar.<br>Odatda, <code>ul</code> ro‘yxatlar ko‘rsatkichlar bilan va <code>ol</code> ro‘yxatlari raqamlangan elementlar bilan ko‘rsatiladi.</li>
+                                <li><code>li</code> —  <code>ul</code> yoki <code>ol</code> ro‘yxatidagi elementlarni sanab bering.<br><code>li</code> elementini <code>ul</code> yoki <code>ol</code> ro‘yxatiga biriktirish kerak; bu o‘z-o‘zidan sodir bo‘lmaydi.</li>
+                                <li>Bo‘lim sarlavhalari, 'h1' (eng katta) dan 'h6' (eng kichik)gacha.<br>Ular sarlavhalar, bo‘lim sarlavhalari va shunga o‘xshash narsalar uchun ishlatiladi.</li>
+                                <li><code>div</code> — Mantiqiy sahifa yoki hujjatning <em>bo‘linishi</em> (division).<br>Paragraflar, ro‘yxatlar va sarlavhalar kabi boshqa blok elementlar 'div' ichiga joylashtirilishi mumkin.</li>
+                                </ul>
+                                <p>Keyingi darsda siz 'div' elementini ko‘proq ko‘rasiz. Ekranda odatiy ekran sozlamalari mavjud emasligi sababli, <code>div</code>lar 'CSS'da odatiy dizayn berishda ko‘proq qo‘llaniladi.</p>
+                                <h2 id="-inline-elementlar">'Inline' elementlar</h2>
+                                <p>'Inline' elementlar ekranda to‘liq kenglikdagi ramkani yaratmaydi. Ular matnning ko‘rinishini o‘zgartiradi yoki matnga boshqa narsalarni - masalan, qatorlar 'break'lari, rasmlar yoki giperhavolalar kiritadi.</p>
+                                <ul>
+                                <li><code>em</code> va <code>strong</code> — Urg‘u berish (ajratib ko‘rsatish).<br>Odatda, 'em' ichidagi matn <em>italic</em> shaklida ko‘rsatiladi va 'strong' dagi matn <strong>boldface</strong> sifatida ko‘rsatiladi.</li>
+                                <li><code>br</code> — Qator 'break' (qator uzilishi). <em>(bo‘sh)</em><br>Qator uzilishi yangi paragraf yaratmaydi; u faqat qatorning oxirini belgilaydi.</li>
+                                <li><code>sub</code> va <code>sup</code> — Satr osti va satr usti.<br>Matematika va kimyo uchun foydali: Menda x<sup>3</sup>+2x<sup>2</sup> H<sub>2</sub>O molekulalari bor.</li>
+                                <li><code>mark</code> — Belgi.<br>Tez-tez ishlatilmaydi, lekin <mark> bu ajoyib belgilash.</mark></li>
+                                </ul>
+                                <p>Siz ko‘rgan ba’zi 'inline' elementlar <strong>atributlar</strong>dir, ular elementning o‘z nomidan tashqari qo‘shimcha ma’lumotlarni talab qiladi. Atributlar elementning ochuvchi tegida yoziladi.</p>
+                                <ul>
+                                <li><code>img</code> — rasmlar.<br>URL bilan 'src' atributi va tavsiflovchi matnli 'alt' atributi kerak bo‘ladi.</li>
+                                <li><code>a</code> — Giperhavolalar.<br>'URL'ga ega bo‘lgan 'href' atributini talab qiladi.</li>
+                                </ul>
+                                <h4 id="rasmlar">Rasmlar</h4>
+                                <p>'img tegining sintaksisi quyidagicha:</p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"Image URL here"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"A description of the image"</span>&gt;</span>
+                                </code></pre>
+                                <p>Rasmning URL manzili mutloq URL manzili bo‘lishi mumkin, masalan, <code>http://placebear.com/800/600</code>, yoki u <code>images/wolves.jpg</code> kabi nisbiy URL manzili bo‘lishi mumkin.</p>
+                                <p><code>alt</code> matnidan agar rasm yuklanmasa yoki foydalanuvchi rasmlarni ko‘rmasa - masalan, foydalanuvchi [screen reader]dan (<a target="_blank" href="https://en.wikipedia.org/wiki/Screen_reader">https://en.wikipedia.org/wiki/Screen_reader</a>) foydalanayotgan bo‘lsa ishlatiladi.</p>
+                                <h4 id="havolalar">Havolalar</h4>
+                                <p>Giperhavola foydalanuvchiga bir sahifadan boshqasiga o‘tishga imkon beradi. Ular <code>a</code> elementi yordamida yaratilgan. Havolaning manzili 'href' deb ataladigan atributda yozilgan; havola matni <code>a</code> elementining tarkibi sifatida paydo bo‘ladi. Bu yerda misol keltirilgan:</p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://en.wikipedia.org/wiki/Hypertext"</span>&gt;</span>
+                                  Wikipedia's "Hypertext" article
+                                <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+                                </code></pre>
+                                <p>Ushbu kod quyidagi havolani yaratadi: <a href="https://en.wikipedia.org/wiki/Hypertext">Wikipedia's "Hypertext" article</a>.</p>
+                                <p>Bitta web-sayt ichidagi havola nisbiy 'URL'dan foydalanib yozilishi mumkin. Boshqa saytlarga havolalar mutlaq URL manzili sifatida yozilishi kerak.</p>
+                                
+                                </div></div><span></span></div>
+                        </i>
+                    </details>
+                    
+                    <dl>
+                        <dt> Chrome </dt>
+                        <dd> Eng tezkor brauzer</dd>
+                    </dl>
+                    
+                    <details>
+                        <summary><b>HTML5</b></summary>
+                        <i>Belgilanishlar tili</i>
+                    </details>
+                        
+                </div>
+            </header>
+
+            <br>    <!--Break  -->
+
+            <table>   <!-- Jadval yaratish uchun asosiy -->
+
+                <thead> <!-- Table head-->
+                    <tr>    <!-- Table road --> <!--thead ning ichida tr faqat bir marotaba ishlanadi-->
+                        <th>N<sup>o</sup></th>  <!-- Table header -->
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone nam.</th>
+                    </tr>
+                </thead>
+
+               
+
+                <tbody> <!-- Table body-->
+                    
+                    <tr>                       
+                        <td>1</td> <!--Table date-->
+                        <td>Shohjaxon</td>
+                        <td>shohjaxon@gmail.com</td>
+                        <td>+998991234567</td>
+                    </tr>
+
+                    <tr>                       
+                        <td>2</td>
+                        <td>Ruzibek</td>
+                        <td>ruzibek.off@gmail.com</td>
+                        <td>+998979996711</td>
+                    </tr>
+
+                    <tr>                       
+                        <td>3</td>
+                        <td>Shodilbek</td>
+                        <td>shodilbek676@gmail.com</td>
+                        <td>+818080340367</td>
+                    </tr>
+
+                    <tr>                       
+                        <td>4</td>
+                        <td>Nozimabonu</td>
+                        <td>nozima06@gmail.com</td>
+                        <td>+998994910011</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <img src="https://fakeurl.example.net/fish.png" alt="Fish">
+
+            <a href="https://google.com" ><img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="Google!"></a>
+
+            <hr>
+
+            <footer align="right"> 2021 Ruzibek Sharobidinov</footer>
+                     
+        </body>
+   </html>

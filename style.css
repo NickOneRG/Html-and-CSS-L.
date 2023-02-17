@@ -1,0 +1,31 @@
+body{
+    background-image:
+     url(https://wallpapercave.com/wp/wp2657485.jpg);
+     background-size: cover;
+}
+
+
+
+#notes1{
+    background-image: url(https://w.wallpaperkiss.com/wimg/s/193-1933108_small.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font: italic small-caps bold 35px/2 cursive;
+
+}
+
+h2{
+    color: #FA8072;
+    background-image: url(https://i.pinimg.com/564x/1e/45/f7/1e45f78692098145e62a360fcf609cec--colored-smoke-clouds.jpg);
+}
+div{
+    background-color: rgba(240, 248, 255, 0.596);
+}
+#html-elementlar-1{
+
+}
+
+strong{
+    font-size: 25;
+}

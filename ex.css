@@ -1,0 +1,18 @@
+.cont {
+    width: 200px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+ .div {
+    width: 100px;
+    height: 100px;
+ }
+
+ #div1, #div4 {
+     background-color: blue;
+ }
+
+#div2, #div3 {
+    background-color: red;
+}
